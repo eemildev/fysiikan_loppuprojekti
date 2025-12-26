@@ -10,7 +10,7 @@ from streamlit_folium import st_folium
 
 # DATA
 df_gps = pd.read_csv("https://raw.githubusercontent.com/eemildev/fysiikan_loppuprojekti/main/Location.csv")
-df_acc = pd.read_csv("https://raw.githubusercontent.com/eemildev/fysiikan_loppuprojekti/main/Linear Accelerometer.csv")
+df_acc = pd.read_csv("https://raw.githubusercontent.com/eemildev/fysiikan_loppuprojekti/main/Linear_Accelerometer.csv")
 
 st.title("Päivän liikunta")
 
